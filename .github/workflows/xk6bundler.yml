@@ -1,5 +1,6 @@
 name: xk6bundler
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*"
