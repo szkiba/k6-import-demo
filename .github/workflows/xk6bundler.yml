@@ -26,6 +26,7 @@ jobs:
         id: build
         uses: szkiba/xk6bundler@v0
         with:
+          k6_version: v0.50.0
           markdown: README.md
 
       - name: Create Release
